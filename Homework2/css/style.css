@@ -4,26 +4,28 @@
 }
 
 body {
-	background-color: #c0c0c0;
 	font-family: "Myriad Pro";
 }
 
 .wrapper {
 	width: 1320px;
-	height: 930px;
+	height: 910px;
 	background-color: #f9f9f9;
 	margin-top: 50px;
 }
 
 .info {
-	width: 1014px;
-	height: 880px;
+	width: 964px;
+	height: 860px;
 	background-color: #ffffff;
 	padding-top: 50px;
 	padding-left: 46px;
-	-webkit-box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
+	padding-right: 50px;
+	border-left: 1.5px solid #e1e1e1;
+	border-right: 1.5px solid #e1e1e1;
+	/*-webkit-box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
-	box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
+	box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);*/
 }
 
 .block {
@@ -48,7 +50,7 @@ body {
 	background-color: #575656;
 	display: inline-block;
 	text-align: center;
-	width: 120px;
+	width: 130px;
 }
 
 
@@ -59,45 +61,52 @@ a {
 	display: block;
 }
 
+
+.side {
+	height: 400px;
+	float: left;
+}
+
+
 .product li {
-	width: 200px;
+	width: 240px;
 	line-height: 40px;
 	list-style-type: none;
-	padding-left: 32px;
 	border: 1.2px solid #c0c0c0;
 	border-bottom: none;
-	float: left;
 }
 
 .product .gadjet {
 	border-bottom: 1.2px solid #c0c0c0;
 }
 .product a {
+	padding-left: 32px;
 	color: #656363;
 	font-size: 13.33px;
 	text-align: left;
 }
 
-.side {
-	height: 400px;
-}
 
 .content {
+	width: 676px;
 	font-size: 13.33px;
-	margin: 40px 80px 65px 310px;
 	color: #2c2c2c;
-}
-
-.velo {
 	float: right;
-	margin-right: 50px;
 }
 
+
+.text {
+	margin-top: 40px;
+	margin-bottom: 60px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
 
 .footer {
 	background-color: #e1e1e1;
 	margin-left: 0px;
 	width: 966px;
+	clear: both;
 }
 
 .downmenu {
@@ -131,18 +140,18 @@ a {
 	font-size: 13.33px;
 }
 
-.menu a:active{
+.menu a:hover{
 	background-color: #393939;
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
 }
 
-.product a:active{
+.product a:hover{
 	color: #2c2c2c;
 	padding-left: 20px;
 	background-color: #f9f9f9;
 }
 
-.downmenu a:active{
+.downmenu a:hover{
 text-decoration: underline;
 }
