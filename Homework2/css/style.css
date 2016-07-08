@@ -5,12 +5,13 @@
 
 body {
 	font-family: "Myriad Pro";
+	background-color: #f9f9f9;
 }
 
 .wrapper {
 	width: 1320px;
 	height: 910px;
-	background-color: #f9f9f9;
+	
 	margin-top: 50px;
 }
 
