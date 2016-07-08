@@ -1,0 +1,76 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	font-family: Tahoma;
+	color: #e6e6e6;
+}
+
+.wrapper {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 40px;
+	height: 850px;
+	width: 830px;
+	background-image: url(img1.jpg);
+}
+
+.header {
+height: 145px
+}
+
+.logo {
+	border: none;
+}
+
+.contact {
+float: right;
+margin-top: 90px;
+margin-right: 20px;
+}
+
+.us {
+	font-size: 10.16px;
+	margin-bottom: 5px;
+}
+
+.phone,
+.mail {
+	font-size: 8.47px;
+}
+
+.num1,
+.num2 {
+	letter-spacing: 10px;
+}
+
+
+.num1 li,
+.num2 li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.num2 {
+	margin-top: 30px;
+}
+
+.content img {
+	border: 3px ridge #9d9d9d;
+	border-radius: 1px;
+}
+
+figcaption {
+	letter-spacing: 0px;
+	text-align: center;
+	font-size: 15.24px;
+}
+
+
+.end {
+	font-size: 10.16px;
+	text-align: center;
+	margin-top: 220px;
+}
