@@ -41,20 +41,14 @@ margin-right: 20px;
 	font-size: 8.47px;
 }
 
-.num1,
-.num2 {
+.img-row {
 	letter-spacing: 10px;
+	margin-bottom: 30px;
 }
 
-
-.num1 li,
-.num2 li {
+.img-row li {
 	display: inline-block;
 	vertical-align: top;
-}
-
-.num2 {
-	margin-top: 30px;
 }
 
 .content img {
@@ -73,4 +67,36 @@ figcaption {
 	font-size: 10.16px;
 	text-align: center;
 	margin-top: 220px;
+}
+
+.img-row img:hover {
+	border: 3px double blue;
+}
+
+.img-row figcaption:hover {
+	color: blue;
+}
+
+a {
+	text-decoration: none;
+	color: #e6e6e6;
+}
+
+.logo {
+	margin-top: 5px;
+	width: 260px;
+	height: 140px;
+	background-image: url(palma.png);
+	background-position: right;
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.logo figcaption {
+	font-size: 10.16px;
+}
+
+.logo img {
+	margin-top: 75px;
 }
