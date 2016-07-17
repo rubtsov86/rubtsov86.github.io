@@ -1,0 +1,201 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*body*/
+
+body {
+	font-family: Tahoma;
+ }
+
+
+.wrapper {
+width: 1000px;
+height: 1010px;
+background-image: url(img1.jpg);
+padding: 40px 100px 0px 100px;
+}
+
+.content {
+	padding-top: 6px;
+	background-color: #ffffff;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 970px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
+	box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
+	border-bottom: 3px solid black;
+}
+
+/*end body*/
+
+
+/*header*/
+.cont {
+	float: right;
+	margin-right: 40px;
+}
+
+.cont p {
+	color: #128aa7;
+	margin-left: 150px;
+}
+
+
+.cont1 {
+	margin-bottom: 10px;
+}
+
+.img-row {
+	margin-top: 10px;
+	letter-spacing: 10px;
+}
+
+.img-row li {
+	display: inline-block;
+	letter-spacing: 0;
+}
+
+.img-row a {
+	font-size: 10px;
+	color: #128aa7;
+	text-align: center;
+}
+
+
+.photo {
+	height: 240px;
+}
+
+.photo img {
+	border-top: 2px solid #0f8cad;
+	border-bottom: 2px solid #0f8cad; 
+}
+
+/*end header*/
+
+/*menu*/
+
+.menu {
+	background-color: #333333;
+	
+}
+
+.line {
+	border-bottom: 1px solid black;
+}
+
+.line li {
+	display: inline-block;
+	width: 138.5px;
+	line-height: 30px;
+	letter-spacing: normal;
+	text-align: center;
+	position: relative;
+	
+}
+
+.line a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #ffffff;
+	display: block;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid #ffffff;
+	float: right;
+	margin-top: 14px;
+	margin-right: 15px;
+}
+/*submenu*/
+
+
+.submenu {
+	display: none;
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -1px;
+	border-top: 1px solid black;
+}
+
+.submenu li {
+	background: #333333;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.line li:hover .submenu {
+display: block;
+}
+
+/*end menu*/
+
+/*content*/
+
+
+.colum {
+	width: 100%;
+	float: left;
+	background-image: url(fon.png), url(fon.png);
+	background-position: left, right;
+	background-repeat: repeat-y;
+}
+
+
+
+.news {
+	width: 200px;
+	float: right;
+}
+
+.info {
+	width: 200px;
+	float: left;
+}
+
+.news {
+	float: right;
+}
+
+h1 {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.colum p {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+
+/*end content*/
+
+/*footer*/
+
+.finish {
+	margin-top: 5px;
+	width: 980px;
+	font-size: 12px;
+	text-align: center;
+	color: #ffffff;
+}
+
+/*end footer*/
+
+
+
+
