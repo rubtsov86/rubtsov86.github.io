@@ -12,9 +12,8 @@ body {
 
 .wrapper {
 width: 1000px;
-height: 1010px;
 background-image: url(img1.jpg);
-padding: 40px 100px 0px 100px;
+padding: 40px 100px 5px 100px;
 }
 
 .content {
@@ -23,7 +22,7 @@ padding: 40px 100px 0px 100px;
 	background-position: top;
 	background-repeat: no-repeat;
 	width: 1000px;
-	height: 970px;
+	/*height: 950px;*/
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
 	box-shadow: 0px 0px 5px 0px rgba(192,192,192,1);
@@ -34,14 +33,26 @@ padding: 40px 100px 0px 100px;
 
 
 /*header*/
+
+.logo {
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+
 .cont {
 	float: right;
 	margin-right: 40px;
 }
 
+.contup {
+	float: right;
+	margin-bottom: 10px;
+}
+
 .cont p {
 	color: #128aa7;
-	margin-left: 150px;
+	/*margin-left: 150px;*/
 }
 
 
@@ -50,8 +61,9 @@ padding: 40px 100px 0px 100px;
 }
 
 .img-row {
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	letter-spacing: 10px;
+	clear: both;
 }
 
 .img-row li {
@@ -105,6 +117,9 @@ padding: 40px 100px 0px 100px;
 	display: block;
 }
 
+
+
+
 .triangle-down {
 	width: 0;
 	height: 0;
@@ -140,6 +155,11 @@ padding: 40px 100px 0px 100px;
 display: block;
 }
 
+.line a:hover {
+	background-color: black;
+}
+
+
 /*end menu*/
 
 /*content*/
@@ -148,26 +168,36 @@ display: block;
 .colum {
 	width: 100%;
 	float: left;
-	background-image: url(fon.png), url(fon.png);
-	background-position: left, right;
-	background-repeat: repeat-y;
+	background-image: url(fon1.png);
+	background-repeat: repeat;
+	background-size: 20%;
+	margin-bottom: 5px;
+	position: relative;
 }
 
-
+.middle {
+	width: 60%;
+	height: 100%;
+	position: absolute;
+	left: 20%;
+	float: left;
+	background-color: #ffffff;
+}
 
 .news {
-	width: 200px;
+	width: 20%;
 	float: right;
 }
 
 .info {
-	width: 200px;
+	width: 20%;
 	float: left;
 }
 
 .news {
 	float: right;
 }
+
 
 h1 {
 	font-size: 18px;
@@ -187,8 +217,7 @@ h1 {
 /*footer*/
 
 .finish {
-	margin-top: 5px;
-	width: 980px;
+	width: 100%;
 	font-size: 12px;
 	text-align: center;
 	color: #ffffff;
