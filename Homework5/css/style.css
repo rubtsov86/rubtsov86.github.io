@@ -201,3 +201,12 @@ label {
 	clear: both;
 	margin-top: 30px;
 }
+
+
+.net1 p {
+	float: right;
+}
+
+.net1 {
+	background-color: #344e8b;
+}
