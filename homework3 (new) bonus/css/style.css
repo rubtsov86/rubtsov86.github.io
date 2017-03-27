@@ -1,0 +1,95 @@
+/*GENERAL*/
+
+* {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.wrapper {
+	background-image: url(fon.png);
+	padding: 170px 70px 10px 70px; 
+	width: 825px;
+	color: #e6e6e6;
+	font-family: Tahoma;
+}
+
+/*HEADER*/
+
+.header {
+	float: left;
+	width: 450px;
+}
+
+.header figure {
+	float: left;
+}
+
+.header figcaption {
+	text-align: center;
+	font-size: 10.16px;	
+}
+
+.palm {
+	margin-left: -120px;
+	margin-top: -80px;
+	opacity: 0.6;
+}
+
+
+.contact {
+	float: right;
+	margin-right: 10px;
+}
+
+.text {
+	font-size: 10.13px;
+}
+
+.nomer, .mail {
+	font-size: 8.47px;
+}
+
+/*CONTENT*/
+
+.content {
+	clear: both;
+}
+
+ul {
+	letter-spacing: 10px;
+}
+
+.content li {
+	display: inline-block;
+}
+
+.content img {
+	border: 2px solid #b2b2b2;
+	border-radius: 1px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content figcaption {
+	text-align: center;
+	letter-spacing: 0px;
+	font-size: 15.14px;
+	color: #e6e6e6;
+}
+
+.row1 {
+	margin-bottom: 20px;
+}
+
+/*FOOTER*/
+
+.footer {
+	margin-top: 200px;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 10.16px;
+}
