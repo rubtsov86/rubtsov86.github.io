@@ -7,10 +7,16 @@
 	font-size: 14.69px;
 }
 
+body {
+	width: 900px;
+	background-color: #f9f9f9;
+}
+
 .wrapper {
 	padding: 30px;
-	border-right: 1px solid #575656;
-	border-left: 1px solid #575656;
+	border-right: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	background-color: #ffffff;
 }
 
 /*HEADER*/
@@ -46,12 +52,16 @@
 
 .sidebar ul {
 	list-style: none;
+	width: 200px;
+	border: 1px solid #f0f0f0;
+}
+
+.sidebar li +li {
+	border-top: 1px solid #f0f0f0;
 }
 
 .sidebar li {
-	border: 1px solid #575656;
 	line-height: 25px;
-	width: 220%;
 }
 
 .sidebar a {
@@ -71,7 +81,7 @@
 .velo {
 	float: right;
 	padding: 30px 50px 30px 50px;
-	border: 1px solid #575656;
+	border: 1px solid #f0f0f0;
 }
 
 
